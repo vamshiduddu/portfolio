@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #edeef0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+    padding: 10px;
+
+}
+
+nav ul li {
+    margin: 0px 20px;
+}
+
+/*
+
+logo text
+nav link text
+smaller header text
+larger text in header (H1)
+bio heading h2
+profolio skills contact (H3)
+
+
+*/
+
+
+p {
+    font-size: 1.5em;
+}
+
+.logo-text {
+    font-size: 3em;
+    font-weight: 700;
+    color: #f05136;
+}
+
+.nav-liNK {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-liNK:hover {
+    color: #f05136;
+
+}
+
+#idhome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: black;
+    color: white;
+    height: 450px;
+}
+
+header div p {
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+}
+
+#bio article * {
+    margin: 25px;
+}
+
+.break {
+    display: block;
+}
+
+h1,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background-color: #f05136;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: black;
+}
+
+.link-button:hover {
+    color: white;
+}
+
+hr {
+    width: 400px;
+}
+
+
+
+#portfolio {
+
+    background: url(https://i1.faceprep.in/ProGrad/portfolio-background.svg);
+
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#portfolio h2,
+h4,
+hr {
+    margin-bottom: 20px;
+}
+
+
+#portfolio div article {
+    background: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#portfolio div article p {
+    padding: 0.5px;
+}
+
+
+#skills-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 50px;
+}
+
+#skills h4 {
+    text-align: center;
+}
+
+#skills ul li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.25, inset);
+
+}
+
+::-webkit-progress-value {
+    background-color: #f05136;
+
+}
+
+#skills ul {
+    font-size: 1.5em;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 10px 0;
+
+}
+
+#contact form input:last-child {
+    margin-top: 30px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
